@@ -2,19 +2,19 @@ document.addEventListener('DOMContentLoaded', function load() {
 
   if (!window.jQuery) return setTimeout(load, 50);
 
-  const styles = document.createElement("link")
-  styles.rel = "stylesheet"
-  styles.href = "https://tomashapl.github.io/axello-designer-export/axello-designer.css"
+  const styles = document.createElement("link");
+  styles.rel = "stylesheet";
+  styles.href = "https://tomashapl.github.io/axello-designer-export/axello-designer.css";
   document.body.appendChild(styles);
 
-  const popper = document.createElement("script")
-  script.type = "text/javascript"
-  script.src = "https://unpkg.com/@popperjs/core@2"
+  const popper = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "https://unpkg.com/@popperjs/core@2";
   document.body.appendChild(popper);
 
-  const tippy = document.createElement("script")
-  script.type = "text/javascript"
-  script.src = "https://unpkg.com/tippy.js@6"
+  const tippy = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "https://unpkg.com/tippy.js@6";
   document.body.appendChild(tippy);
 
   const script = document.createElement("script");
