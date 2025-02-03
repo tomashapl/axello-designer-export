@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function load() {
 
-  if (!window.jQuery) return setTimeout(load, 50);
-  if (!window.tippy) return setTimeout(load, 50);
-  if (!window.Popper) return setTimeout(load, 50);
+  if (!window.jQuery || !window.tippy || !window.Popper) return setTimeout(load, 50);
 
   const styles = document.createElement("link");
   styles.rel = "stylesheet";
