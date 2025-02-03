@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function load() {
   const styles = document.createElement("link");
   styles.rel = "stylesheet";
   styles.href = "https://tomashapl.github.io/axello-designer-export/axello-designer.css";
-  document.body.appendChild(styles);
+  document.head.appendChild(styles);
 
   const popper = document.createElement("script");
   popper.type = "text/javascript";
