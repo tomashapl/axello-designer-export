@@ -53,7 +53,7 @@
     display: flex;
     border-radius: 10px;
     overflow: hidden;
-
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 
     [data-tippy-wrapper] {
         display: flex;
@@ -84,7 +84,7 @@
                     color: #161617;
                     font-size: 16px;
                     line-height: 21px;
-                    font-weight: bold;
+                    font-weight: 400;
                 }
 
                 [data-tippy-description] {
