@@ -10,12 +10,14 @@ document.addEventListener('DOMContentLoaded', function load() {
   popper.src = "https://unpkg.com/@popperjs/core@2";
   document.body.appendChild(popper);
 
+  if (!window.Popper) return setTimeout(load, 50);
+
   const tippy = document.createElement("script");
   tippy.type = "text/javascript";
   tippy.src = "https://unpkg.com/tippy.js@6";
   document.body.appendChild(tippy);
 
-  if (!window.jQuery || !window.tippy || !window.Popper) return setTimeout(load, 50);
+  if (!window.jQuery || !window.tippy) return setTimeout(load, 50);
 
   const script = document.createElement("script");
   script.type = "text/javascript";
