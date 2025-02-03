@@ -30,7 +30,7 @@ $(window).load(function () {
     interactive: true,
     allowHTML: true,
     arrow: false,
-    delay: 0,
+    delay: [0, 100],
     duration: 100,
     touch: true,
     sticky: 'popper',
