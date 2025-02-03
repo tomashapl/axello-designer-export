@@ -22,6 +22,23 @@ function updatePositions() {
 
 $(window).load(function () {
   updatePositions();
+
+  tippy("[data-marker]", {
+    content(reference) {
+      return reference.getAttribute('data-content') ?? '';
+    },
+    interactive: true,
+    allowHTML: true,
+    arrow: false,
+    delay: 0,
+    duration: 100,
+    touch: true,
+    sticky: 'popper',
+    interactiveDebounce: 0,
+    inertia: false,
+    animation: 'fade',
+  });
+
 });
 
 window.addEventListener('resize', () => {
