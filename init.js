@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', function load() {
   document.body.appendChild(styles);
 
   const popper = document.createElement("script");
-  script.type = "text/javascript";
-  script.src = "https://unpkg.com/@popperjs/core@2";
+  popper.type = "text/javascript";
+  popper.src = "https://unpkg.com/@popperjs/core@2";
   document.body.appendChild(popper);
 
   const tippy = document.createElement("script");
-  script.type = "text/javascript";
-  script.src = "https://unpkg.com/tippy.js@6";
+  tippy.type = "text/javascript";
+  tippy.src = "https://unpkg.com/tippy.js@6";
   document.body.appendChild(tippy);
 
   const script = document.createElement("script");
