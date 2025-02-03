@@ -55,7 +55,7 @@
         display: flex;
         border-radius: 10px;
         overflow: hidden;
-        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4);
 
         [data-tippy-wrapper] {
             display: flex;
@@ -68,10 +68,6 @@
                     max-height: 100%;
                     max-width: 100%;
                 }
-            }
-
-            .tippy-content {
-                padding: 0;
             }
 
             [data-tippy-content] {
