@@ -32,7 +32,7 @@ $(window).load(function () {
     arrow: false,
     delay: [0, 100],
     duration: 100,
-    interactiveBorder: 20,
+    interactiveBorder: 10,
     touch: true,
     sticky: 'popper',
     interactiveDebounce: 0,
